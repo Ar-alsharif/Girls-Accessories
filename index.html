@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LunaLace | Girls Accessories</title>
+    <meta
+      name="description"
+      content="LunaLace offers trendy girls accessories from necklaces to bags for every occasion."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" id="home">
+        <div class="container nav-wrap">
+          <a href="#home" class="logo">
+            <span class="logo-icon">✦</span>
+            <span>LunaLace</span>
+          </a>
+
+          <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+
+          <nav class="main-nav" id="main-nav">
+            <a href="#featured" class="nav-link">Featured</a>
+            <a href="#categories" class="nav-link">Categories</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#testimonials" class="nav-link">Reviews</a>
+            <a href="#contact" class="nav-link">Contact</a>
+          </nav>
+
+          <div class="header-actions">
+            <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+              <i class="fa-solid fa-moon" id="themeIcon"></i>
+            </button>
+            <a href="#featured" class="btn btn-primary header-btn">Shop Now</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <!-- Hero / introduction section -->
+        <section class="hero-section reveal">
+          <div class="container hero-grid">
+            <div class="hero-content">
+              <span class="eyebrow">Spring Collection 2026</span>
+              <h1>Accessorize every moment with a little sparkle.</h1>
+              <p class="hero-text">
+                Discover charming necklaces, stackable bracelets, sparkling rings, and stylish bags made to brighten every outfit.
+              </p>
+              <div class="hero-actions">
+                <a href="#featured" class="btn btn-primary">Explore Collection</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+              </div>
+              <div class="hero-stats">
+                <div>
+                  <strong>10k+</strong>
+                  <span>Happy Girls</span>
+                </div>
+                <div>
+                  <strong>4.9/5</strong>
+                  <span>Average Rating</span>
+                </div>
+                <div>
+                  <strong>24h</strong>
+                  <span>Express Delivery</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="hero-visual">
+              <div class="hero-card card-main">
+                <img
+                  src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=700&q=80"
+                  alt="A stylish pink accessory collection"
+                />
+              </div>
+              <div class="hero-card floating-card card-small">
+                <span>New Drop</span>
+                <strong>Dreamy Pearl Set</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="featured-section reveal" id="featured">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Featured products</span>
+              <h2>Best-loved accessories</h2>
+            </div>
+
+            <div class="product-grid">
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=500&q=80" alt="Pearl charm necklace" />
+                <div class="product-info">
+                  <span class="product-tag">Necklace</span>
+                  <h3>Pearl Charm Necklace</h3>
+                  <div class="product-meta">
+                    <span>$32</span>
+                    <button class="add-to-cart">Add to cart</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=500&q=80" alt="Crystal bracelet" />
+                <div class="product-info">
+                  <span class="product-tag">Bracelet</span>
+                  <h3>Crystal Stack Bracelet</h3>
+                  <div class="product-meta">
+                    <span>$18</span>
+                    <button class="add-to-cart">Add to cart</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?auto=format&fit=crop&w=500&q=80" alt="Opal ring" />
+                <div class="product-info">
+                  <span class="product-tag">Ring</span>
+                  <h3>Opal Bloom Ring</h3>
+                  <div class="product-meta">
+                    <span>$24</span>
+                    <button class="add-to-cart">Add to cart</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=500&q=80" alt="Silver hoop earrings" />
+                <div class="product-info">
+                  <span class="product-tag">Earrings</span>
+                  <h3>Moonlit Hoops</h3>
+                  <div class="product-meta">
+                    <span>$20</span>
+                    <button class="add-to-cart">Add to cart</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=500&q=80" alt="Mini shoulder bag" />
+                <div class="product-info">
+                  <span class="product-tag">Bag</span>
+                  <h3>Mini Ribbon Bag</h3>
+                  <div class="product-meta">
+                    <span>$45</span>
+                    <button class="add-to-cart">Add to cart</button>
+                  </div>
+                </div>
+              </article>
+
+              <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1617038260897-41a1f14a8ca0?auto=format&fit=crop&w=500&q=80" alt="Layered pendant set" />
+                <div class="product-info">
+                  <span class="product-tag">Set</span>
+                  <h3>Layered Pendant Set</h3>
+                  <div class="product-meta">
+                    <span>$39</span>
+                    <button class="add-to-cart">Add to cart</button>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="categories-section reveal" id="categories">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Categories</span>
+              <h2>Find your perfect style</h2>
+            </div>
+
+            <div class="categories-grid">
+              <article class="category-card">
+                <i class="fa-solid fa-gem"></i>
+                <h3>Jewelry</h3>
+                <p>Delicate rings, pearls, and charm necklaces for daily sparkle.</p>
+              </article>
+              <article class="category-card">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                <h3>Bracelets</h3>
+                <p>Playful chains and gemstone cuffs for a layered look.</p>
+              </article>
+              <article class="category-card">
+                <i class="fa-solid fa-ear-deaf"></i>
+                <h3>Earrings</h3>
+                <p>Statement hoops and minimal studs for every kind of day.</p>
+              </article>
+              <article class="category-card">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <h3>Bags</h3>
+                <p>On-trend mini bags and crossbody styles for the perfect finish.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="about-section reveal" id="about">
+          <div class="container about-grid">
+            <div class="about-image-wrap">
+              <img
+                src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=700&q=80"
+                alt="Store owner arranging accessories"
+              />
+            </div>
+            <div class="about-content">
+              <span class="eyebrow">About us</span>
+              <h2>Designed for girls who love to shine.</h2>
+              <p>
+                At LunaLace, we believe accessories are the finishing touch that tells your story. Our curated collections blend comfort,
+                trend-forward details, and thoughtful craftsmanship to help every girl feel confident and radiant.
+              </p>
+              <p>
+                From everyday essentials to celebration-ready pieces, we create looks that are soft, playful, and unforgettable.
+              </p>
+              <a href="#contact" class="btn btn-primary">Visit the Store</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="why-section reveal">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Why choose us</span>
+              <h2>What makes LunaLace special</h2>
+            </div>
+
+            <div class="why-grid">
+              <article class="why-card">
+                <i class="fa-solid fa-star"></i>
+                <h3>Premium materials</h3>
+                <p>Carefully selected metals, crystals, and fabrics with long-lasting shine.</p>
+              </article>
+              <article class="why-card">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Fast shipping</h3>
+                <p>Quick dispatch and delivery so your new favorite piece reaches you sooner.</p>
+              </article>
+              <article class="why-card">
+                <i class="fa-solid fa-heart"></i>
+                <h3>Thoughtful gift packaging</h3>
+                <p>Every order arrives beautifully wrapped, ready to gift or treasure.</p>
+              </article>
+              <article class="why-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Easy returns</h3>
+                <p>Shop with confidence thanks to our simple and customer-friendly return policy.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials-section reveal" id="testimonials">
+          <div class="container">
+            <div class="section-heading">
+              <span class="eyebrow">Testimonials</span>
+              <h2>What our customers say</h2>
+            </div>
+
+            <div class="testimonial-grid">
+              <article class="testimonial-card">
+                <div class="testimonial-top">
+                  <div class="avatar">A</div>
+                  <div>
+                    <strong>Ava M.</strong>
+                    <span>Verified buyer</span>
+                  </div>
+                </div>
+                <p>
+                  “The pearl necklace is so elegant and the packaging was adorable. I wear it almost every day!”
+                </p>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-top">
+                  <div class="avatar">L</div>
+                  <div>
+                    <strong>Lily T.</strong>
+                    <span>Verified buyer</span>
+                  </div>
+                </div>
+                <p>
+                  “I found the cutest mini bag for my birthday party. It looks expensive and fits everything I need.”
+                </p>
+              </article>
+              <article class="testimonial-card">
+                <div class="testimonial-top">
+                  <div class="avatar">S</div>
+                  <div>
+                    <strong>Sofia K.</strong>
+                    <span>Verified buyer</span>
+                  </div>
+                </div>
+                <p>
+                  “The customer service was fantastic and my bracelet set arrived in less than 48 hours. Highly recommend!”
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="newsletter-section reveal">
+          <div class="container newsletter-card">
+            <div>
+              <span class="eyebrow">Newsletter</span>
+              <h2>Get first access to new drops</h2>
+            </div>
+            <form id="newsletterForm" class="newsletter-form">
+              <input type="email" id="newsletterEmail" placeholder="Enter your email" aria-label="Email address" required />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </section>
+
+        <section class="contact-section reveal" id="contact">
+          <div class="container contact-grid">
+            <div class="contact-info">
+              <span class="eyebrow">Contact</span>
+              <h2>Let’s connect</h2>
+              <ul class="contact-list">
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+1234567890">+1 (234) 567-890</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:hello@lunalace.com">hello@lunalace.com</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>123 Sparkle Avenue, New York, NY</span>
+                </li>
+              </ul>
+              <div class="social-links">
+                <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+                <a href="#" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+              </div>
+            </div>
+
+            <form class="contact-form">
+              <input type="text" placeholder="Your name" required />
+              <input type="email" placeholder="Your email" required />
+              <textarea rows="5" placeholder="Write your message" required></textarea>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container footer-grid">
+          <div>
+            <a href="#home" class="logo footer-logo">
+              <span class="logo-icon">✦</span>
+              <span>LunaLace</span>
+            </a>
+            <p>Curated accessories for every sparkle-filled moment.</p>
+          </div>
+
+          <div>
+            <h3>Quick links</h3>
+            <ul class="footer-links">
+              <li><a href="#featured">Featured</a></li>
+              <li><a href="#categories">Categories</a></li>
+              <li><a href="#about">About us</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Follow us</h3>
+            <div class="social-links footer-socials">
+              <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <span>© <span id="year"></span> LunaLace. All rights reserved.</span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
